@@ -20,17 +20,7 @@ const projects = [
       {
         img: "/images/Themis AI.png",
         name: "Themis AI",
-        link: "link here",
-      },
-    ],
-  },
-
-  {
-    proj: [
-      {
-        img: "/images/Kaya_Kanri.png",
-        name: "Kaya Kanri",
-        link: "https://www.figma.com/proto/XnnrzKG8qSCGyUtnGk6zDC/Kaya?node-id=1-2&node-type=frame&t=A7iQwpaL7HxPr0D0-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2&show-proto-sidebar=1",
+        link: "https://themis-dashboard-one.vercel.app/",
       },
     ],
   },
@@ -51,6 +41,16 @@ const projects = [
         img: "/images/timezone.png",
         name: "Word Timezone",
         link: "https://world-timezone.vercel.app/",
+      },
+    ],
+  },
+
+  {
+    proj: [
+      {
+        img: "/images/Kaya_Kanri.png",
+        name: "Kaya Kanri",
+        link: "https://www.figma.com/proto/XnnrzKG8qSCGyUtnGk6zDC/Kaya?node-id=1-2&node-type=frame&t=A7iQwpaL7HxPr0D0-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2&show-proto-sidebar=1",
       },
     ],
   },
