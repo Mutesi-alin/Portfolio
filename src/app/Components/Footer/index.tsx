@@ -57,7 +57,7 @@ const Contacts = () => {
 
       <div className="border-t border-white pt-4">
         <p className="text-center text-lg">
-          © {new Date().getFullYear()} Latifa Umunyana. All rights reserved.
+          © 2025 Latifa Umunyana. All rights reserved.
         </p>
       </div>
     </div>
