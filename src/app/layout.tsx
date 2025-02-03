@@ -14,7 +14,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Latifa Umunyana Portfolio",
+  title: "Mutesi Aline Portfolio",
   description: "As a Software Developer actively seeking opportunities in the tech industry, this is my personal website that showcases my latest projects, technical skills, and professional journey.",
 };
 

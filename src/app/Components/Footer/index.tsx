@@ -6,58 +6,59 @@ const afacad = Afacad({
 
 const Contacts = () => {
   return (
-    <div
-      id="contacts"
-      className={`${afacad.className} bg-[#cf871b] p-4 md:p-8`}
-    >
-      <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
+    <div id="contacts" className={`${afacad.className} bg-[#0A3141] p-6 md:p-10`}>
+      <h2 className="text-3xl md:text-4xl font-bold mb-6 text-center text-[#F2E5DA]">
         Contacts
       </h2>
 
       <div className="flex flex-col md:flex-row justify-center md:gap-20 lg:gap-40 mb-8">
-        <div className="text-xl md:text-2xl pt-2 mb-8 md:mb-0">
+        
+        {/* Contact Details */}
+        <div className="text-lg md:text-xl text-[#F2E5DA]">
           <h3 className="pb-2 font-semibold">Address</h3>
-          <p className="pb-4 md:pb-8">Kigali, Rwanda</p>
+          <p className="pb-4">Kigali, Rwanda</p>
           <h3 className="pb-2 font-semibold">Email</h3>
-          <p className="pb-4 md:pb-8">latifahumunyana@gmail.com</p>
+          <p className="pb-4">alinemutesiii@gmail.com</p>
           <h3 className="pb-2 font-semibold">Phone</h3>
-          <p>+250 786230026</p>
+          <p>+250 786766391</p>
         </div>
 
-        <div className="text-xl md:text-2xl">
+        {/* Contact Form */}
+        <div className="text-lg md:text-xl w-full max-w-md">
           <div className="mb-4">
-            <h3 className="font-semibold">Fullname</h3>
+            <h3 className="font-semibold text-[#F2E5DA]">Full Name</h3>
             <input
               type="text"
               name="fullname"
-              className="w-full text-black px-2 py-1 rounded-lg"
+              className="w-full bg-[#F2E5DA] text-[#002E29] px-3 py-2 rounded-lg border border-[#B1785C] focus:outline-none focus:ring-2 focus:ring-[#B1785C]"
             />
           </div>
           <div className="mb-4">
-            <h3 className="font-semibold">Email</h3>
+            <h3 className="font-semibold text-[#F2E5DA]">Email</h3>
             <input
               type="email"
               name="email"
-              className="w-full text-black px-2 py-1 rounded-lg"
+              className="w-full bg-[#F2E5DA] text-[#002E29] px-3 py-2 rounded-lg border border-[#B1785C] focus:outline-none focus:ring-2 focus:ring-[#B1785C]"
             />
           </div>
-          <div>
-            <h3 className="font-semibold">Message</h3>
+          <div className="mb-4">
+            <h3 className="font-semibold text-[#F2E5DA]">Message</h3>
             <textarea
               name="message"
               rows={3}
-              className="w-full text-black px-2 py-1 rounded-lg mb-2"
+              className="w-full bg-[#F2E5DA] text-[#002E29] px-3 py-2 rounded-lg border border-[#B1785C] focus:outline-none focus:ring-2 focus:ring-[#B1785C]"
             ></textarea>
-            <button className="border rounded-xl font-semibold px-8 py-2 hover:text-[#cf871b] hover:bg-white transition duration-300">
-              Send
-            </button>
           </div>
+          <button className="bg-[#B1785C] text-[#F2E5DA] px-8 py-2 rounded-lg font-semibold hover:bg-[#F2E5DA] hover:text-[#B1785C] transition duration-300">
+            Send
+          </button>
         </div>
       </div>
 
-      <div className="border-t border-white pt-4">
-        <p className="text-center text-lg">
-          © 2025 Latifa Umunyana. All rights reserved.
+      {/* Copyright Section */}
+      <div className="border-t border-[#F2E5DA] pt-4">
+        <p className="text-center text-md text-[#F2E5DA]">
+          © 2025 Mutesi Aline. All rights reserved.
         </p>
       </div>
     </div>

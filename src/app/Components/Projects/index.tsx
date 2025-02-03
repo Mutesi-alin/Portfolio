@@ -1,4 +1,5 @@
 import { Afacad } from "next/font/google";
+import Image from "next/image";
 
 interface Project {
   name: string;
@@ -18,39 +19,36 @@ const projects = [
   {
     proj: [
       {
-        img: "/images/Themis AI.png",
-        name: "Themis AI",
-        link: "https://themis-dashboard-one.vercel.app/",
+        img: "/images/Drainage.png",
+        name: "Smart Drainage System",
+        link: "https://docs.google.com/presentation/d/1n7XqFRqHNGuecB2QA1Mbi1GDrLfeVfXGFIlnyQJjLe8/edit?usp=sharing",
       },
     ],
   },
-
   {
     proj: [
       {
-        img: "/images/Kipepeo_Fashion.png",
-        name: "Kipepeo Fashion House",
-        link: "https://www.figma.com/proto/dHobEDOXPRz7jmhbN3A3O1/Kipepeo-Fashion-House-Website?node-id=1-2&node-type=frame&t=YkbjOTz3dmHtst3R-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2",
+        img: "/images/Group.PNG",
+        name: "African Business Group",
+        link: "https://ite-abg-webs.vercel.app/",
       },
     ],
   },
-
   {
     proj: [
       {
-        img: "/images/timezone.png",
-        name: "Word Timezone",
-        link: "https://world-timezone.vercel.app/",
+        img: "/images/Bashana.png",
+        name: "Bashana Companies",
+        link: "https://bashana-website-up2y.vercel.app/",
       },
     ],
   },
-
   {
     proj: [
       {
-        img: "/images/Kaya_Kanri.png",
-        name: "Kaya Kanri",
-        link: "https://www.figma.com/proto/XnnrzKG8qSCGyUtnGk6zDC/Kaya?node-id=1-2&node-type=frame&t=A7iQwpaL7HxPr0D0-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2&show-proto-sidebar=1",
+        img: "/images/translator.png",
+        name: "Language Translator",
+        link: "https://language-translator-website.vercel.app",
       },
     ],
   },
@@ -58,14 +56,18 @@ const projects = [
 
 const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => (
   <div className="bg-white rounded-lg shadow-md overflow-hidden">
-    <div className="aspect-w-4 aspect-h-3">
-      <a href={project.link} className="text-blue-600 hover:underline">
-        <img
+    <div className="relative aspect-w-4 aspect-h-3">
+      <a href={project.link} 
+         target="_blank" 
+         rel="noopener noreferrer" 
+         className="block relative w-full h-[300px]"
+      >
+        <Image
           src={project.img}
           alt={project.name}
-          width={400}
-          height={300}
-          className="w-full h-full object-cover"
+          fill
+          className="object-cover"
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
         />
       </a>
     </div>
@@ -80,7 +82,7 @@ const Project = () => {
   return (
     <div
       id="projects"
-      className={` ${afacad.className} py-24 max-w-6xl mx-auto p-4 font-sans`}
+      className={`${afacad.className} py-24 max-w-6xl mx-auto p-4 font-sans`}
     >
       <h2 className="text-4xl font-bold mb-6 text-center py-4">Projects</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

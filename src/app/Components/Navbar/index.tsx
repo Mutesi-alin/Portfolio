@@ -37,7 +37,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className={`${afacad.className} delay-75 px-4 py-4 sm:px-6 sm:py-6 lg:px-16 lg:py-8 fixed w-full z-50 bg-white text-black`}>
+      <nav className={`${afacad.className} delay-75 px-4 py-4 sm:px-6 sm:py-6 lg:px-16 lg:py-8 fixed w-full z-50 bg-white bg-[#002E29]`}>
         <div className="flex justify-end items-center">
           <button
             className="sm:hidden text-3xl focus:outline-none z-50"
