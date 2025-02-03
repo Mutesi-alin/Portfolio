@@ -84,7 +84,7 @@ const Project = () => {
       id="projects"
       className={`${afacad.className} py-24 max-w-6xl mx-auto p-4 font-sans`}
     >
-      <h2 className="text-4xl font-bold mb-6 text-center py-4">Projects</h2>
+      <h2 className="text-4xl  text-[#002E29] mb-6 text-center py-4">Projects</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {projects.map((projectGroup, index) =>
           projectGroup.proj.map((project, projIndex) => (
