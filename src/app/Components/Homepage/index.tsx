@@ -97,6 +97,7 @@ const Homepage = () => {
                   href="/images/Mutesi_Aline_CV.pdf" 
                   download="Mutesi_Aline_CV.pdf"
                   className="inline-block"
+
                 >
                   <button className="border-2 border-[#B1785C] text-[#B1785C] px-6 py-3 rounded-full shadow-md hover:bg-[#B1785C] hover:text-white transition-transform transform hover:scale-105">
                     Download CV
