@@ -7,7 +7,7 @@ const afacad = Afacad({
 
 interface SkillItem {
   name: string;
-  level: "Beginner" | "Intermediate" | "Advanced" | "Expert";
+  level: "Beginner" | "Intermediate" | "Advanced" | "Expert"| "Basic";
 }
 
 interface SkillCategory {
@@ -35,7 +35,7 @@ const skills: SkillCategory[] = [
     items: [
       { name: "Python", level: "Advanced" },
       { name: "Django", level: "Advanced" },
-      { name: "Machine Learning", level: "Intermediate" },
+      { name: "Machine Learning", level: "Basic" },
     ],
   },
   {
@@ -86,12 +86,12 @@ const SkillSet: React.FC = () => {
     <div id="skills" className={`${afacad.className} py-16 bg-[#0A3141]`}>
       <div className="max-w-6xl mx-auto px-6">
         
-        {/* Section Title */}
+      
         <h2 className="text-4xl font-bold mb-6 text-center text-[#F2E5DA]">
           Skills
         </h2>
         
-        {/* Skills Grid */}
+        
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {skills.map((skillCategory, index) => (
             <SkillCard
