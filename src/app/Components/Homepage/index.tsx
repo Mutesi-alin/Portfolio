@@ -14,7 +14,7 @@ const Homepage = () => {
           <div className="flex flex-col lg:flex-row items-center justify-between gap-12 bg-[#F2E5DA] p-10 rounded-lg shadow-lg">
             
             <div className="lg:w-1/2 ">
-              <p className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl py-4 sm:py-6 lg:py-8">
+              <p className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl py-4 sm:py-6 lg:py-8  text-[#0A3141]">
                 Hello, <span className="text-[#C17F59]">I&apos;M</span>
               </p>
               <h1 className="font-semibold text-4xl sm:text-5xl lg:text-6xl pb-4 sm:pb-6 lg:pb-8 text-[#0A3141]">
