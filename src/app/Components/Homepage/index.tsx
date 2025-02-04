@@ -13,7 +13,7 @@ const Homepage = () => {
           
           <div className="flex flex-col lg:flex-row items-center justify-between gap-12 bg-[#F2E5DA] p-10 rounded-lg shadow-lg">
             
-            <div className="lg:w-1/2 space-y-6">
+            <div className="lg:w-1/2 ">
               <p className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl py-4 sm:py-6 lg:py-8">
                 Hello, <span className="text-[#C17F59]">I&apos;M</span>
               </p>
@@ -34,7 +34,7 @@ const Homepage = () => {
                   href="https://www.linkedin.com/in/mutesi-aline-0517902b4/" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="bg-[#002E29] p-3 rounded-full hover:opacity-80 transition-opacity"
+                  className="bg-[#0A3141] p-3 rounded-full hover:opacity-80 transition-opacity"
                 >
                   <Image src="/images/LinkedIn.svg" alt="LinkedIn" width={28} height={28} />
                 </a>
@@ -42,7 +42,7 @@ const Homepage = () => {
                   href="https://x.com/aline_mutesii" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="bg-[#002E29] p-3 rounded-full hover:opacity-80 transition-opacity"
+                  className="bg-[#0A3141] p-3 rounded-full hover:opacity-80 transition-opacity"
                 >
                   <Image src="/images/Twitter.svg" alt="Twitter" width={28} height={28} />
                 </a>
@@ -50,7 +50,7 @@ const Homepage = () => {
                   href="https://github.com/Mutesi-alin" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="bg-[#002E29] p-3 rounded-full hover:opacity-80 transition-opacity"
+                  className="bg-[#0A3141] p-3 rounded-full hover:opacity-80 transition-opacity"
                 >
                   <Image src="/images/github.svg" alt="Github" width={28} height={28} />
                 </a>
