@@ -51,6 +51,18 @@ const projects = [
         link: "https://language-translator-website.vercel.app",
       },
     ],
+    
+  },
+
+  {
+    proj: [
+      {
+        img: "/images/akagera.png",
+        name: "Akagera Live Lodge",
+        link: "https://akageralivelodge-o56k.vercel.app/",
+      },
+    ],
+    
   },
 ];
 
